@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "338111124454",
+    "project_id": "zombie-ranch-farm",
+    "storage_bucket": "zombie-ranch-farm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338111124454:android:66faf1b8638caa84593c27",
+        "android_client_info": {
+          "package_name": "com.BearBobStudio.zombie.ranch.simulator.survival.farm.craft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2_X2jJADm5i0lmaVbC3WUvetwhRWVCKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="gcm_defaultSenderId" translatable="false">338111124454</string>
+  <string name="google_storage_bucket" translatable="false">zombie-ranch-farm.appspot.com</string>
+  <string name="project_id" translatable="false">zombie-ranch-farm</string>
+  <string name="google_api_key" translatable="false">AIzaSyB2_X2jJADm5i0lmaVbC3WUvetwhRWVCKA</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB2_X2jJADm5i0lmaVbC3WUvetwhRWVCKA</string>
+  <string name="google_app_id" translatable="false">1:338111124454:android:66faf1b8638caa84593c27</string>
+</resources>

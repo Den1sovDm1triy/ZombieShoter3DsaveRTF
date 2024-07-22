@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a3f61881182594695a56227876506f, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  damage: 35
+  shootDelay: 0.5
+  reloadDelay: 0
+  capacityMagazine: 1
+  shootDistance: 2.5
+  reloadClip: {fileID: 8300000, guid: 4e65f4f1a9685cf47a8efd1fc930754a, type: 3}
+  shootClip: {fileID: 8300000, guid: b3d97e673ef85e2459d3516f1ac6f328, type: 3}
+  emptyClip: {fileID: 8300000, guid: b3d97e673ef85e2459d3516f1ac6f328, type: 3}
+  activateClip: {fileID: 8300000, guid: 7f1fe97690a6b4f43aede957d14581c5, type: 3}
+  weaponType: 0
+  weaponName: 2
+  ammoAtStart: 0

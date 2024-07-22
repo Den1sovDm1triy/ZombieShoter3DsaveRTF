@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a7106bcadfb4fe4eb554bd7ea210bc5, type: 3}
+  m_Name: FlameThrower
+  m_EditorClassIdentifier: 
+  price: 3500
+  pricePeriod: {x: 3300, y: 3800}
+  spriteGoods: {fileID: 21300000, guid: ded4a827a2d642d46a58875b264beeeb, type: 3}
+  secondimage: {fileID: 0}
+  nameGoods: FlameThrower
+  nameTitle: Flamethrower
+  typegood: 3
+  specification: 1

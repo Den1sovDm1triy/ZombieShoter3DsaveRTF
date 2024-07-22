@@ -1,0 +1,15 @@
+diff a/Assets/Scripts/LeaderBoards/UnityLeaderBoard.cs b/Assets/Scripts/LeaderBoards/UnityLeaderBoard.cs	(rejected hunks)
+@@ -54,12 +54,7 @@
+         {
+             Debug.Log($"������ �������{e}");
+         }
+-
+-
+-    }
+-
+-
+-   
++    }   
+ 
+     async Task SignInAnonymously()
+     {

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a3f61881182594695a56227876506f, type: 3}
+  m_Name: AKMData
+  m_EditorClassIdentifier: 
+  damage: 20
+  shootDelay: 0.05
+  reloadDelay: 3.5
+  capacityMagazine: 30
+  shootDistance: 38
+  reloadClip: {fileID: 8300000, guid: 8fee44440708849469c98e44912434a0, type: 3}
+  shootClip: {fileID: 8300000, guid: f250dd4cf8b57674e982336f408289c8, type: 3}
+  emptyClip: {fileID: 8300000, guid: 78abc978885c6c346a1b46d07e0ec1ba, type: 3}
+  activateClip: {fileID: 8300000, guid: 7f1fe97690a6b4f43aede957d14581c5, type: 3}
+  weaponType: 1
+  weaponName: 4
+  ammoAtStart: 30

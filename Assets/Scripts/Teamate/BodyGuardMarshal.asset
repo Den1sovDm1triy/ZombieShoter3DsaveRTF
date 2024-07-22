@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd20ecd2dd16d794d857ab6915db59d3, type: 3}
+  m_Name: BodyGuardMarshal
+  m_EditorClassIdentifier: 
+  employeeName: Marshal Hawkins
+  price: 500
+  salaryPerDay: 300
+  teammateSprite: {fileID: 21300000, guid: bcea7cd87026f1942b40529d3c8f5993, type: 3}
+  typeTeammate: 0
+  description: retired military
+  descriptionWeapon: armed with a shotgun
+  rating: 5
+  moveSpeed: 1.6
+  runSpeed: 3
+  health: 250
+  damage: 30
+  dayUnblock: 3

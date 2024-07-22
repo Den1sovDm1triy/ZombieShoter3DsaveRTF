@@ -1,0 +1,17 @@
+{
+    "idSave": 46,
+    "isFirstSession": false,
+    "language": "ru",
+    "promptDone": false,
+    "newPlayerName": "Hello!",
+    "openLevels": [
+        false,
+        true,
+        false
+    ],
+    "money": 17,
+    "cristals": 11,
+    "sens": 0.0,
+    "kills": 12,
+    "isMusicPlay": true
+}

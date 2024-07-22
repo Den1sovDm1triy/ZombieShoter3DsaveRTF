@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8358679993557142186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5479781275667744472}
+  - component: {fileID: 4010159380034460516}
+  - component: {fileID: 3249795699901039246}
+  - component: {fileID: 3444911502040239574}
+  - component: {fileID: 845304500005942274}
+  - component: {fileID: 5041040034682439257}
+  m_Layer: 0
+  m_Name: ManagersLeaderBoards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5479781275667744472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8358679993557142186}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 39.416134, y: -1.4660659, z: 24.04245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4010159380034460516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8358679993557142186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e76cb0edc2b374caec1272551944aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  problemPanel: {fileID: 2949950114584270641, guid: 4001d635cca4e514f84e62547136572f, type: 3}
+--- !u!114 &3249795699901039246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8358679993557142186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a149b750d645746a5eff3cf6d57ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainBoardButton: {fileID: 0}
+  monthBoardButton: {fileID: 0}
+  weekBoardButton: {fileID: 0}
+  dayBoardButton: {fileID: 0}
+  battleBoardButton: {fileID: 0}
+  leaderPrefab: {fileID: 1818892282737265653, guid: 88547587298510c40b993b83649f314d, type: 3}
+  parentForLeader: {fileID: 0}
+  _playerUsernameInput: {fileID: 0}
+  problemPanel: {fileID: 0}
+  problemPanelText: {fileID: 0}
+  scrollRect: {fileID: 0}
+  viewportPanel: {fileID: 0}
+  targetElement: {fileID: 0}
+  loadingObject: {fileID: 0}
+  rangText: {fileID: 0}
+  posButton: {fileID: 0}
+--- !u!114 &3444911502040239574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8358679993557142186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769680f9e5609c046becacaf8ba90c37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backButton: {fileID: 0}
+--- !u!114 &845304500005942274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8358679993557142186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a058c556f75e3f647933aaddb0aae1b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &5041040034682439257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8358679993557142186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 392ed90f9da34ff4eb744fc8efadf45e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputField: {fileID: 0}
