@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 83405114}
   - component: {fileID: 83405113}
   m_Layer: 5
-  m_Name: Cristals
+  m_Name: Chests
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -346,8 +346,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -320}
-  m_SizeDelta: {x: 750, y: 150}
+  m_AnchoredPosition: {x: 0, y: -348}
+  m_SizeDelta: {x: 825, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &83405113
 MonoBehaviour:
@@ -413,8 +413,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 31c85e6f1caf54385b18aa90295dd6c4, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4e312bb3fac527748aaf6913cb4e1057, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 251309588}
   - component: {fileID: 251309587}
   m_Layer: 5
-  m_Name: Cristals
+  m_Name: Chests
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -483,7 +483,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 100, y: -242.20001}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &251309587
 MonoBehaviour:
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8b06dbfc926e74780a39e8a7d3b1edc0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7e98d36fe70292b419fce9ab994b660d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1296,7 +1296,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.15908688, g: 0.19799843, b: 0.23584908, a: 0}
+  m_BackGroundColor: {r: 0.16981131, g: 0.16862454, b: 0.16100034, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1468,8 +1468,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.867, y: 23.202484}
-  m_SizeDelta: {x: 719.0001, y: 110.405}
+  m_AnchoredPosition: {x: -0.867, y: 81}
+  m_SizeDelta: {x: 900, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841689568
 MonoBehaviour:
@@ -1535,8 +1535,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6bbcba4e267be464998897741b81d508, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4e312bb3fac527748aaf6913cb4e1057, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1983,7 +1983,7 @@ GameObject:
   - component: {fileID: 1112972066}
   - component: {fileID: 1112972065}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Record
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2007,7 +2007,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 100, y: -171.59998}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1112972065
 MonoBehaviour:
@@ -2029,7 +2029,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 978f5921e87d04a7f88a2dc6c330fab2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d6e3b04a49a3df14d904c4795a585f8c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2059,7 +2059,7 @@ GameObject:
   - component: {fileID: 1133403565}
   - component: {fileID: 1133403564}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Coins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2083,7 +2083,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 100, y: -100}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1133403564
 MonoBehaviour:
@@ -2105,7 +2105,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3fb23bf6552b44aafb168ed0584e1641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 831ac2e2333d9e54ea71a866002e4c68, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2160,8 +2160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -185}
-  m_SizeDelta: {x: 750, y: 150}
+  m_AnchoredPosition: {x: 0, y: -176}
+  m_SizeDelta: {x: 825, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1255354828
 MonoBehaviour:
@@ -2227,8 +2227,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 31c85e6f1caf54385b18aa90295dd6c4, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 98e71f95038c11f4b866f3a21016032a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2311,8 +2311,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278320896
-  m_fontColor: {r: 0, g: 1, b: 0.00427413, a: 1}
+    rgba: 4294901502
+  m_fontColor: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2415,8 +2415,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -455}
-  m_SizeDelta: {x: 750, y: 150}
+  m_AnchoredPosition: {x: 0, y: -520}
+  m_SizeDelta: {x: 825, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515008890
 MonoBehaviour:
@@ -2482,8 +2482,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 31c85e6f1caf54385b18aa90295dd6c4, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4e312bb3fac527748aaf6913cb4e1057, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3323,7 +3323,7 @@ MonoBehaviour:
   info: "\u041F\u0430\u0440\u043A\u043E\u0432\u043A\u0430"
   infoText: {fileID: 1008211322}
   unblockCristall: 0
-  namescene: FarmScene
+  namescene: 01_ParkingScene
   blockImage: {fileID: 1075323934}
 --- !u!1 &1805598892
 GameObject:
@@ -3382,8 +3382,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041E\u0446\u0435\u043D\u0438\u0442\u044C \u0438\u0433\u0440\u0443 \u0437\u0430
-    200 \u043C\u043E\u043D\u0435\u0442"
+  m_text: "\u041E\u0426\u0415\u041D\u0418\u0422\u042C \u0418\u0413\u0420\u0423 \u0417\u0410
+    200 \u041C\u041E\u041D\u0415\u0422"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2fb484f2c3110364eb2e0186d37d3a51, type: 2}
   m_sharedMaterial: {fileID: 5633225933320302444, guid: 2fb484f2c3110364eb2e0186d37d3a51, type: 2}
@@ -3563,8 +3563,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4291525125
+  m_fontColor: {r: 0.019607844, g: 0.4784314, b: 0.7960785, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3688,8 +3688,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C 1 \u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B 
-    \u0437\u0430 \u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440 \u0440\u0435\u043A\u043B\u0430\u043C\u044B"
+  m_text: "+ 1 \u0421\u0423\u041D\u0414\u0423\u041A  \u0417\u0410 \u0420\u0415\u041A\u041B\u0410\u041C\u0423"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2fb484f2c3110364eb2e0186d37d3a51, type: 2}
   m_sharedMaterial: {fileID: 5633225933320302444, guid: 2fb484f2c3110364eb2e0186d37d3a51, type: 2}
@@ -4162,7 +4161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2033589532}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

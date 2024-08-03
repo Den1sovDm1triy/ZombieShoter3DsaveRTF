@@ -31,7 +31,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 04b7bb4212f0e9b498769b2077336c89, type: 3}
+        m_Texture: {fileID: 2800000, guid: 822402f846727b24890cc7d5f5430675, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Blood:
@@ -129,7 +129,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _IndirectIntensity: 0.9
+    - _IndirectIntensity: 0.719
     - _IndirectIntensityOutline: 0
     - _MatCapMaskChannel: 0
     - _MatCapType: 0
