@@ -138,7 +138,7 @@ public class WeaponManager : Saver
         yield return new WaitForSeconds(0.2f);
         InventoryManager.onTakeWeapon?.Invoke(WeaponName.Axe, 0);
         yield return new WaitForSeconds(0.2f);
-        InventoryManager.onTakeWeapon?.Invoke(WeaponName.ShotGun, 30);
+        InventoryManager.onTakeWeapon?.Invoke(WeaponName.Pistol, 30);
         //yield return new WaitForSeconds(0.2f);
         //InventoryManager.onTakeWeapon?.Invoke(WeaponName.Revolver, 150);
         //yield return new WaitForSeconds(0.2f);

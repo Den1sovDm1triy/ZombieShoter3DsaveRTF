@@ -57,7 +57,7 @@ public class MoneyItem : MonoBehaviour, IItem
                 float distance = Vector3.Distance(transform.position, player.transform.position);
                 collectionRadius = PlayerUpgradeManager.Instance.collectionRadius;
 
-                Debug.Log("Distance to player: " + distance + ", Collection radius: " + collectionRadius);
+                //Debug.Log("Distance to player: " + distance + ", Collection radius: " + collectionRadius);
 
                 if (distance <= collectionRadius)
                 {
