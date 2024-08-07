@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using DG.Tweening;
+
 public class MoneyItem : MonoBehaviour, IItem
 {
     public static Action<Vector3, int> onTakeMoney;
     [SerializeField] private int amount;
     [SerializeField] private Outline outline;
-    [SerializeField] private float flightDuration = 3.0f; // Продолжительность полета
-    [SerializeField] private float flightHeight = 1.0f; // Высота траектории полета
+    [SerializeField] private float flightDuration = 3.0f; // РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ РїРѕР»РµС‚Р°
+    [SerializeField] private float flightHeight = 1.0f; // Р’С‹СЃРѕС‚Р° С‚СЂР°РµРєС‚РѕСЂРёРё РїРѕР»РµС‚Р°
     bool first;
-    public void DropItem()
-    {
-        
-    }
+    private float collectionRadius;
+
+    public void DropItem() { }
 
     public void Setup(int count)
     {
-        amount = count;  
+        amount = count;
     }
 
     public void Indicate()
@@ -43,8 +43,40 @@ public class MoneyItem : MonoBehaviour, IItem
 
     void Start()
     {
-          transform.DORotate(new Vector3(0, 360, 0), 1.0f, RotateMode.FastBeyond360).SetLoops(-1, LoopType.Incremental);
-          MoveToPlayer();
+        transform.DORotate(new Vector3(0, 360, 0), 1.0f, RotateMode.FastBeyond360).SetLoops(-1, LoopType.Incremental);
+        StartCoroutine(CheckDistanceToPlayer());
+    }
+
+    IEnumerator CheckDistanceToPlayer()
+    {
+        while (true)
+        {
+            GameObject player = GameObject.FindWithTag("Player");
+            if (player != null)
+            {
+                float distance = Vector3.Distance(transform.position, player.transform.position);
+                collectionRadius = PlayerUpgradeManager.Instance.collectionRadius;
+
+                Debug.Log("Distance to player: " + distance + ", Collection radius: " + collectionRadius);
+
+                if (distance <= collectionRadius)
+                {
+                    MoveToPlayer();
+                    while (distance <= collectionRadius)
+                    {
+                        distance = Vector3.Distance(transform.position, player.transform.position);
+                        if (distance <= collectionRadius)
+                        {
+                            // РћР±РЅРѕРІР»СЏРµРј РїСѓС‚СЊ РґРѕ С‚РµРєСѓС‰РµР№ РїРѕР·РёС†РёРё РёРіСЂРѕРєР°
+                            transform.DOMove(player.transform.position, 0.5f).SetEase(Ease.InOutSine);
+                        }
+                        yield return new WaitForSeconds(0.5f);
+                    }
+                    break;
+                }
+            }
+            yield return new WaitForSeconds(0.5f);
+        }
     }
 
     void MoveToPlayer()

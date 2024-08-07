@@ -1,5 +1,5 @@
 {
-    "idSave": 46,
+    "idSave": 80,
     "isFirstSession": false,
     "language": "ru",
     "promptDone": false,
@@ -9,9 +9,9 @@
         true,
         false
     ],
-    "money": 17,
+    "money": 33,
     "cristals": 11,
-    "sens": 0.0,
-    "kills": 12,
-    "isMusicPlay": true
+    "sens": 16.82007598876953,
+    "kills": 19,
+    "isMusicPlay": false
 }

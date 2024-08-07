@@ -6163,6 +6163,9 @@ MonoBehaviour:
   moneyX: 0
   moneyStep: 1
   moneyLevel: 0
+  collectionRadius: 0
+  collectionRadiusStep: 10
+  collectionRadiusLevel: 0
   speedUpUpgrade:
     level: 0
     typeUpgrade: 0
@@ -6176,6 +6179,9 @@ MonoBehaviour:
     level: 0
     typeUpgrade: 0
   moneyUpgrade:
+    level: 0
+    typeUpgrade: 0
+  collectionRadiusUpgrade:
     level: 0
     typeUpgrade: 0
 --- !u!82 &198104132
