@@ -47,6 +47,6 @@ public class ButtonUpgrade : MonoBehaviour
 }
 
 public enum TypeUpgrade{
-     SpeedUp, HealthUp, HealUpgrade, VampireUp, MoneyUp, none,
+     SpeedUp, HealthUp, HealUpgrade, VampireUp, MoneyUp, CollectionRadiusUp, none,
 }
 

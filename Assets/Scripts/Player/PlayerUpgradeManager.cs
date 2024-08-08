@@ -15,6 +15,7 @@ public  class PlayerUpgradeManager: MonoBehaviour
     public static Action<int> onHealAfterDamageUpgrade;
     public static Action<float> onSpeedUpUpgrade;
     public static Action<float> onVampireUpgrade;
+    public static Action<float> onCollectionRadiusUpgrade;
   
     public   List<PlayerUgradeLevel> playerUgradeLevels=new List<PlayerUgradeLevel>();
 
@@ -39,12 +40,17 @@ public  class PlayerUpgradeManager: MonoBehaviour
     public int moneyStep=1;
     public int moneyLevel=0;
 
-    public  PlayerUgradeLevel speedUpUpgrade;
-    public  PlayerUgradeLevel healthUpUpgrade;
-    public  PlayerUgradeLevel healUpgrade;
-    public  PlayerUgradeLevel vampireUpgrade; 
+    public int collectionRadius = 0;
+    public int collectionRadiusStep = 3;
+    public int collectionRadiusLevel = 0;
 
+
+    public PlayerUgradeLevel speedUpUpgrade;
+    public PlayerUgradeLevel healthUpUpgrade;
+    public PlayerUgradeLevel healUpgrade;
+    public PlayerUgradeLevel vampireUpgrade;
     public PlayerUgradeLevel moneyUpgrade;
+    public PlayerUgradeLevel collectionRadiusUpgrade;
 
 
     public void Awake(){
@@ -59,33 +65,37 @@ public  class PlayerUpgradeManager: MonoBehaviour
         InitUpgrades();
     }
 
-    
-    
+   
+
     public void Upgrade(PlayerUpgrade playerUpgrade)
     {
-        foreach(var p in playerUgradeLevels){
-            
-            if(p.typeUpgrade==playerUpgrade.typeUpgrade){
+        foreach (var p in playerUgradeLevels)
+        {
+            if (p.typeUpgrade == playerUpgrade.typeUpgrade)
+            {
                 p.LevelUp();
             }
         }
-        switch(playerUpgrade.typeUpgrade)
-    {
-        case TypeUpgrade.SpeedUp:
-            SpeedUp();
-            break;
-        case TypeUpgrade.HealthUp:
-            HealthUp();
-            break;
-        case TypeUpgrade.HealUpgrade:
-            HealUpgrade();
-            break;
-        case TypeUpgrade.VampireUp:
-            VampireUp();
-            break;
-        case TypeUpgrade.MoneyUp:
-            MoneyUp();
-            break;
+        switch (playerUpgrade.typeUpgrade)
+        {
+            case TypeUpgrade.SpeedUp:
+                SpeedUp();
+                break;
+            case TypeUpgrade.HealthUp:
+                HealthUp();
+                break;
+            case TypeUpgrade.HealUpgrade:
+                HealUpgrade();
+                break;
+            case TypeUpgrade.VampireUp:
+                VampireUp();
+                break;
+            case TypeUpgrade.MoneyUp:
+                MoneyUp();
+                break;
+            case TypeUpgrade.CollectionRadiusUp:
+                CollectionRadiusUp();
+                break;
         }
     }
 
@@ -95,11 +105,13 @@ public  class PlayerUpgradeManager: MonoBehaviour
         healUpgrade = new PlayerUgradeLevel(0, TypeUpgrade.HealUpgrade);
         vampireUpgrade = new PlayerUgradeLevel(0, TypeUpgrade.VampireUp);
         moneyUpgrade = new PlayerUgradeLevel(0, TypeUpgrade.MoneyUp);
+        collectionRadiusUpgrade = new PlayerUgradeLevel(0, TypeUpgrade.CollectionRadiusUp);
         playerUgradeLevels.Add(speedUpUpgrade);  
         playerUgradeLevels.Add(healthUpUpgrade);  
         playerUgradeLevels.Add(healUpgrade);
         playerUgradeLevels.Add(vampireUpgrade);
         playerUgradeLevels.Add(moneyUpgrade);
+        playerUgradeLevels.Add(collectionRadiusUpgrade);
     }
 
 
@@ -128,6 +140,14 @@ public  class PlayerUpgradeManager: MonoBehaviour
     {        
         moneyX=moneyStep*moneyUpgrade.level;
         onVampireUpgrade?.Invoke(moneyX);
+    }
+    
+
+    public void CollectionRadiusUp()
+    {
+        collectionRadius = collectionRadiusStep*collectionRadiusUpgrade.level;
+        onCollectionRadiusUpgrade?.Invoke(collectionRadius);
+        Debug.Log("CollectionUpdate " +  collectionRadius + collectionRadiusUpgrade.level);
     }
 
     public  int GetPrice(PlayerUpgrade playerUpgrade)
